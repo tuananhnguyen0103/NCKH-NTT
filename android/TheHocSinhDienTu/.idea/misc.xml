@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/drawable/border_editext.xml" value="0.2035" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/drawable/border_id_card_top.xml" value="0.2585" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/drawable/ic_baseline_camera_24.xml" value="0.2945" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_absent.xml" value="0.25" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_change_password.xml" value="0.23001282599401454" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_detail_scores.xml" value="0.19452757588713127" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_face_detect.xml" value="0.22" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_information.xml" value="0.22" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_login_with_face_idactivity.xml" value="0.14792646430098333" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_news.xml" value="0.22" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_noti.xml" value="0.33" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_score_table.xml" value="0.21248396750748183" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_time_table.xml" value="0.2159042325780248" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/activity_update_face.xml" value="0.22" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/dialog_time_table.xml" value="0.16545532278751604" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/fragment_calendar.xml" value="0.25" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/fragment_noti.xml" value="0.3009833262077811" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/fragment_other.xml" value="0.36666666666666664" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/item_diem.xml" value="0.21248396750748183" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/item_face.xml" value="0.3009833262077811" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/item_news.xml" value="0.36666666666666664" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/item_notification.xml" value="0.36666666666666664" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/item_score.xml" value="0.21248396750748183" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/item_time_table.xml" value="0.33" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/layout/noti_dialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/DA4/FinalProjectUtehy/android/TheHocSinhDienTu/app/src/main/res/menu/menu_home.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

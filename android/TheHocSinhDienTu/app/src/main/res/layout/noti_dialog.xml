@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00FFFFFF">
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_editext"
+        android:backgroundTint="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_titile"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:text="Tên thông báo"
+                android:textColor="@color/primary" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/cv2"
+            android:layout_below="@id/cv"
+            android:gravity="center"
+            android:text="Tài khoản hoặc mật khẩu không chính xác"
+            android:textSize="13sp" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv2"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:cardCornerRadius="20dp">
+            <Button
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:id="@+id/btn_close"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_gradient"
+                android:text="Đóng"
+                android:textColor="@color/white" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>

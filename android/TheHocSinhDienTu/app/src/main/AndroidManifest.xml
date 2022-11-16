@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tondz.thehocsinhdientu">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activities.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.DetailScoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.AbsentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.TimeTableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.InformationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LoginWithFaceIDActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.FaceDetectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.UpdateFaceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ScoreTableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.NotiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.NewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.mlkit.vision.DEPENDENCIES"
+            android:value="face" />
+
+        <service android:name=".Service.NotificationService" />
+    </application>
+
+</manifest>

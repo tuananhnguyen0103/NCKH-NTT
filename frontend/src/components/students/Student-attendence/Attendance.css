@@ -1,0 +1,19 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+select{
+  font-family: fontAwesome;
+}
+th,td{
+    width:5rem ;
+}
+.state-change {
+    display: block;
+    width: fit-content;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}

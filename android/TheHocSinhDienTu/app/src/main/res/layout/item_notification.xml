@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_content"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerInside" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical">
+                <!--        45-->
+                <TextView
+                    android:id="@+id/tv_titile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:maxHeight="50dp"
+                    android:paddingLeft="5dp"
+                    android:text="Cảnh báo đuổi học sinh vì vi phạm quá nhiều..."
+                    android:textColor="@color/primary"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="15/2/2022"
+                    android:textColor="#90CAF9" />
+                <!--            200-->
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:maxHeight="80dp"
+                    android:padding="5dp"
+                    android:text="Cảnh báo đuổi học sinh vì vi phsadjfkljadsl;kfjldsakjfl;dksàl;kdsàlkjdsạm quá nhiều sadfjsfkádflkjsadl;kjfadls;jfk;ladsfj;lsadjfkdls;àkds;lsdljkfl;ddjf..."
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
